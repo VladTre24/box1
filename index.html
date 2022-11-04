@@ -9,7 +9,7 @@
 
 
   <script>
-    alert( 'access' );
+    alert( 'Access' );
   </script>
 
 <p>Виконав курсант С-11 Трейтяк Владислав </p>
@@ -20,7 +20,8 @@
 <table border = "3"  width = "55%" cellpadding = "5" >
   <tr>
     <td>
- <input id="first"/> + <input id="second"/> = <output id="plus"/>
+ <td>
+  <p><b>Firstly</b></p><input id="first"/> + <input id="second"/> = <output id="plus"/>
  <button onclick="func()">anwer</button> <p></p>
 
  <script>
@@ -32,9 +33,11 @@
           document.getElementById("plus").innerHTML = plus;
           }
  </script>
+</td>
  </td>
  <td>
-  <input id="first2"/> - <input id="second2"/> = <output id="minus"/>
+  <td>
+    <p><b>Secondly</b></p><input id="first2"/> - <input id="second2"/> = <output id="minus"/>
  <button onclick="func2()">anwer</button> <p></p>
 
  <script>
@@ -46,9 +49,10 @@
           document.getElementById("minus").innerHTML = minus;
           }
  </script>
+</td>
  </td>
  <td>
-   <input id="first3"/> * <input id="second3"/> = <output id="umn"/>
+   <td><p><b>Thirdly</b></p><input id="first3"/> * <input id="second3"/> = <output id="umn"/>
  <button onclick="func3()">anwer</button> <p></p>
 
  <script>
@@ -60,9 +64,10 @@
           document.getElementById("umn").innerHTML = umn;
           }
  </script>
+</td>
  </td>
- <td>
-    <input id="first4"/> / <input id="second4"/> = <output id="dil"/>
+  <td>
+    <td> <p><b>Fourthly</b></p><input id="first4"/> / <input id="second4"/> = <output id="dil"/>
  <button onclick="func4()">anwer</button> <p></p>
 
  <script>
@@ -74,12 +79,11 @@
           document.getElementById("dil").innerHTML = dil;
           }
  </script>
+</td>
  </td>
  <td>
- 
-    <input id="first5"/> ^ <input id="second5"/> = <output id="step"/>
+   <td><p><b>Fifthly</b></p><input id="first5"/> Степінь^ <input id="second5"/> = <output id="step"/>
  <button onclick="func5()">anwer</button> <p></p>
-
  <script>
     function func5(){
           var num14 = Number(document.getElementById("first5").value);
@@ -89,10 +93,11 @@
           document.getElementById("step").innerHTML = step;
           }
  </script>
+ <td>
+ </td>
+</td>
 </td>
   </tr>
   </table>
 </body>
 </html>
-
-
